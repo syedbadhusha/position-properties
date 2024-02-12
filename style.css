@@ -1,0 +1,74 @@
+h1{
+    font-family: Georgia;
+    color: brown;
+}
+.main{
+    position: relative;
+    top: 200px;
+    left: 450px;
+}
+.content{
+    position: absolute;
+    background-color: slategray;
+}
+.link{
+    color: peru;
+}
+.link:hover{
+    color: brown;
+}
+.staticParent{
+    background-color: green;
+}
+.staticChild1{
+    background-color: yellow;
+    top: 20px;
+}
+.staticChild2{
+    background-color: orange;
+}
+
+.relativeParent{
+    background-color: green;
+}
+.relativeChild1{
+    position:relative;
+    background-color: yellow;
+    top: 30px;
+}
+.relativeChild2{
+    background-color: orange;
+}
+
+.absoluteParent{
+    background-color: green;
+    position: relative;
+}
+.absoluteChild1{
+    position:absolute;
+    background-color: yellow;
+    top: 20px;
+}
+.absoluteChild2{
+    background-color: orange;
+}
+.fixed{
+    position: fixed;
+    background-color: gray;
+    top: 0;
+    left: 0;
+}
+.fMain{
+    height: 1000px;
+    background-color: blanchedalmond;
+    margin-top: 70px;
+}
+.sMain{
+    height: 1000px;
+    background-color: blanchedalmond;
+}
+.sticky{
+    position: sticky;
+    background-color: gray;
+    top: 0;
+}
